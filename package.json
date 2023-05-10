@@ -1,10 +1,10 @@
 {
     "name": "itsRAW",
     "version": "1.0.0",
-    "description": "",
+    "description": "This is my playground. Having some fun while building stuff from 0",
     "scripts": {
         "start:prod": "node dist/server.js",
-        "start:dev": "ts-node-dev src/server.ts",
+        "start:dev": "ts-node-dev src/api/server.ts",
         "build": "tsc",
         "build:watch": "tsc --watch"
     },
