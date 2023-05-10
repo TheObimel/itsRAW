@@ -2,7 +2,7 @@ import http from "http";
 
 const port = 1911;
 http.createServer(function(_, res: http.ServerResponse) {
-    res.writeHead(200, { "Content-Type": "plain/text" });
+    res.writeHead(200, { "Content-Type": "text/plain" });
 
     //send data
     const message = {

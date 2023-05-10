@@ -8,7 +8,7 @@ export default function apiCall() {
             port: 1911,
             path: "/",
             method: "GET",
-            headers: { "Content-Type": "plain/text" },
+            headers: { "Content-Type": "text/plain" },
         });
 
         req.on("response", (res) => {
