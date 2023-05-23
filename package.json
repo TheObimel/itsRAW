@@ -3,8 +3,8 @@
     "version": "1.0.0",
     "description": "This is my playground. Having some fun while building stuff from 0",
     "scripts": {
-        "start:prod": "node dist/server.js",
-        "start:dev": "ts-node-dev src/api/server.ts",
+        "start": "node dist/server.js",
+        "start:dev": "ts-node-dev src/server.ts",
         "build": "tsc",
         "build:watch": "tsc --watch"
     },

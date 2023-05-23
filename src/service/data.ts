@@ -1,0 +1,2 @@
+//TODO: Data
+type Event = {};
